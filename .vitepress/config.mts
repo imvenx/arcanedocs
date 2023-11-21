@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ArcaneDocs",
   outDir: './docs',
-  base: 'arcanedocs',
+  base: '/arcanedocs/',
   description: "Documentation and tutorials to create apps and games with Arcanepad",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
