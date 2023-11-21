@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Arcanepad Docs",
+  title: "ArcaneDocs",
   description: "Documentation and tutorials to create apps and games with Arcanepad",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

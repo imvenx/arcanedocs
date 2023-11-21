@@ -4,12 +4,12 @@ layout: home
 
 hero:
   name: "ArcaneDocs"
-  text: "Create Amazing games with Arcanepad"
-  tagline: My great project tagline
+  text: "Where Imagination Meets Innovation"
+  tagline: Craft Extraordinary Experiences with Arcanepad
   image:
-    src: /hologram-phone.png
+    src: /arcanepad-logo.png
     alt: Arcanepad
-    
+
   actions:
     - theme: brand
       text: Markdown Examples
