@@ -15,9 +15,7 @@ ArcanePad is an innovative platform and software development kit (SDK) designed 
     </iframe>
 </div> -->
 
-<!-- <YoutubeEmbed video-id="ux6jKel9hz8"/> -->
 <YoutubeEmbed video-id="OpaYoftORnE" />
-
 
 ## Core Features
 
@@ -32,6 +30,8 @@ ArcanePad's versatility allows it to be utilized in numerous scenarios, such as:
 - **Interactive Applications:** Enhance user engagement in educational, entertainment, or utility apps.
 - **Gaming:** Create unique gaming experiences by integrating smartphones as interactive game controllers.
 - **Local Experiences:** Focus on applications that encourage real-life interactions and local data processing.
+
+<YoutubeEmbed video-id="ux6jKel9hz8"/>
 
 ## Conclusion
 
