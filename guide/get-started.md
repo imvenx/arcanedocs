@@ -1,14 +1,15 @@
-# Getting Started with Your Development Journey
+# Start Your Development Adventure with Arcanepad
 
-We are excited to support development across various platforms, including Unity, Godot 3, and Web. No matter your preference, we have the resources to get you started. Below are quick links to our comprehensive getting started guides for each platform.
+Welcome to Arcanepad! We're thrilled to embark on this journey with you. Arcanepad is designed to enhance your development experience, offering support for various platforms including Unity, Godot 3, and Web Development. Let's begin your adventure with these simple steps:
 
-## Unity Development
-[Get Started with Unity](/guide/unity/get-started)
+## Step 1: Install the Arcanepad Desktop App
+Install Arcanepad desktop application on your PC. Download it [here](https://github.com/imvenx/arcanepad-releases/releases)
 
-## Godot 3 Development
-[Get Started with Godot 3](/guide/godot3/get-started)
+## Step 2: Get the Arcanepad Mobile App
+Next, equip your android mobile device with the Arcanepad app [here](https://github.com/imvenx/arcanepad-releases-android/releases)
 
-## Web Development
-[Get Started with Web Development](/guide/web/get-started)
+## Step 3: Choose Your Development Path
 
-Choose your platform and dive into the world of development with our detailed and user-friendly guides. Happy coding!
+[![Unity](/guide/unity/button-unity.png)](/guide/unity/get-started)
+[![Godot 3](/guide/godot3/button-godot.png)](/guide/godot3/get-started)
+[![Web](/guide/web/button-web.png)](/guide/web/get-started)

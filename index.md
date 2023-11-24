@@ -38,3 +38,7 @@ features:
   #   details: Share and discover apps through the ArcanePad Store, a marketplace promoting innovative applications.
     # icon: <image src="images/store.png" />
 
+---
+<div style="max-width:75%; margin: 2em auto -6em auto">
+  <YoutubeEmbed video-id="ux6jKel9hz8" />
+</div>
