@@ -39,6 +39,6 @@ features:
     # icon: <image src="images/store.png" />
 
 ---
-<div style="max-width:75%; margin: 2em auto -6em auto">
+<!-- <div style="max-width:75%; margin: 2em auto -6em auto">
   <YoutubeEmbed video-id="OpaYoftORnE" />
-</div>
+</div> -->
