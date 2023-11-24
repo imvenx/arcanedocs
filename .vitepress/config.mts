@@ -44,10 +44,7 @@ export default defineConfig({
         items: [
           { text: 'Getting Started - Godot 3', link: '/guide/godot3/get-started', },
         ]
-      },
-      //  {
-      //   text: 'To-Do', link: '/guide/to-do'
-      // },
+      }
     ],
 
     socialLinks: [
