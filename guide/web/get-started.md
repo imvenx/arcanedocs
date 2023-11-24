@@ -2,7 +2,7 @@
 
 Welcome to ArcanePad! This guide will help you get started with integrating ArcanePad into your web projects.
 
-If you haven't installed the app yet, please refer to [this guide](guide/get-started) and follow the instructions to install ArcanePad desktop and mobile apps before continuing.
+If you haven't installed the app yet, please refer to [this guide](/guide/get-started) and follow the instructions to install ArcanePad desktop and mobile apps before continuing.
 
 We are going to use Quasar.js, a framework on top of Vue.js. The reason for this is that Quasar comes with a lot of tools out of the box that are going to make our development journey a lot easier. For more information, visit [quasar.dev](https://quasar.dev) to get started.
 
