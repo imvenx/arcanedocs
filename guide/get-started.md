@@ -10,6 +10,6 @@ Next, equip your android mobile device with the Arcanepad app [here](https://git
 
 ## Step 3: Choose Your Development Path
 
-[![Unity](/guide/unity/button-unity.png)](/guide/unity/get-started)
-[![Godot 3](/guide/godot3/button-godot.png)](/guide/godot3/get-started)
-[![Web](/guide/web/button-web.png)](/guide/web/get-started)
+- [Unity](/guide/unity/get-started)
+- [Godot 3](/guide/godot3/get-started)
+- [Web](/guide/web/get-started)
