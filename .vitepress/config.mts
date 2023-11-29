@@ -51,6 +51,7 @@ export default defineConfig({
       { icon: 'discord', link: 'https://discord.com/invite/6Pr9JBCGXy' },
       { icon: 'twitter', link: 'https://twitter.com/arcanepad' },
       { icon: 'youtube', link: 'https://www.youtube.com/@Arcanepad' },
+      { icon: 'instagram', link: 'https://www.instagram.com/arcanepad/' },
       { icon: 'mastodon', link: 'https://mastodon.social/@Arcanepad' },
       { icon: 'github', link: 'https://github.com/imvenx' },
     ]
