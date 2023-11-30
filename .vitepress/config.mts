@@ -14,7 +14,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/what-is-arcanepad' },
+      { text: 'Guide', link: '/guide/what-is-arcanepad', activeMatch: '/guide' },
     ],
 
     sidebar: [
