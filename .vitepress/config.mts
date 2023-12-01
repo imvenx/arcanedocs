@@ -29,8 +29,8 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Getting Started - Web', link: '/guide/web/get-started', },
-          { text: 'Markdown Examples', link: '/guide/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/guide/api-examples' }
+          // { text: 'Markdown Examples', link: '/guide/markdown-examples' },
+          // { text: 'Runtime API Examples', link: '/guide/api-examples' }
         ]
       }, {
         text: 'Unity',
