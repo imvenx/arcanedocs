@@ -19,11 +19,13 @@ If that still doesn't work, try adding Arcanepad as an exception on your firewal
 
 To establish a connection between your desktop and mobile device, follow these steps:
 
-1. **Locate the Arcane Code**: On your desktop application, look for the "Arcane Code." This code is crucial for pairing your devices.
+1. **Same WiFi Network**: Ensure both devices are connected to the same WiFi network.
 
-2. **Enter the Code in the Mobile App**: Launch the ArcanePad app on your mobile device and enter the Arcane Code when prompted.
+2. **Locate the Arcane Code**: On your desktop application, look for the "Arcane Code." This code is crucial for pairing your devices.
 
-3. **Troubleshooting Tips**:
+3. **Enter the Code in the Mobile App**: Launch the ArcanePad app on your mobile device and enter the Arcane Code when prompted.
+
+4. **Troubleshooting Tips**:
    - If the pairing process fails, consider these solutions:
      - **Disable VPN**: Some VPNs may interfere with the connection. Try disabling your VPN and attempt to pair the devices again.
      - **Enable Local Network Sharing in VPN**: If you prefer to keep your VPN enabled, look for an option like "Local Network Sharing" in your VPN settings and enable it.
