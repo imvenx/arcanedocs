@@ -14,7 +14,11 @@ We are going to use Quasar.js, a framework on top of Vue.js. The reason for this
 4. Vue
 5. Quasar
 
-## Create a Quasar Project
+## Clone the Starter Repo
+
+https://github.com/imvenx/sdk-test-arcanepad
+
+<!-- ## Create a Quasar Project
 
 ``` shell
 npm i -g @quasar/cli # Run this line if you haven't installed Quasar yet
@@ -118,4 +122,4 @@ To integrate ArcanePad into your web application, start by installing the Arcane
     npm install arcanepad-web-sdk
     ```
 
-This command installs the ArcanePad Web SDK, allowing you to easily integrate ArcanePad functionality into your web applications.
+This command installs the ArcanePad Web SDK, allowing you to easily integrate ArcanePad functionality into your web applications. -->
