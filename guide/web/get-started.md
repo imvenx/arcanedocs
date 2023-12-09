@@ -14,9 +14,26 @@ We are going to use Quasar.js, a framework on top of Vue.js. The reason for this
 4. Vue
 5. Quasar
 
-## Clone the Starter Repo
+### Installing the ArcanePad Web SDK
+
+```bash
+npm install arcanepad-web-sdk
+```
+
+## Starter Template Repo
 
 https://github.com/imvenx/sdk-test-arcanepad
+
+::: code-group
+<<< @/guide/web/template-project/App.vue
+<<< @/guide/web/template-project/IndexPage.vue
+<<< @/guide/web/template-project/GamepadPage.vue
+<<< @/guide/web/template-project/routes.ts
+<<< @/guide/web/template-project/quasar.config.js
+<<< @/guide/web/template-project/PlayerComponent.vue
+<<< @/guide/web/template-project/StickPad.vue
+<<< @/guide/web/template-project/CustomEvents.ts
+:::
 
 <!-- ## Create a Quasar Project
 
