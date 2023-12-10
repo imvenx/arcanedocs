@@ -1,32 +1,22 @@
 <template>
-  <h1>Index!</h1>
-  <div style="overflow: auto; height: 60vh;">
-    <PlayerComponent v-for="pad in pads" :pad="pad" :key="pad.iframeId" />
-  </div>
-  <button @click="attack">Send Attack</button>
-  <div>
-    Pads in menu: {{ padsInMenu }}
+  <h1>Viewer</h1>
+
+  <div style="display: grid; grid-template-columns: 50% 50%;">
+    <div v-for="pad in pads">
+      <Player :pad="pad" />
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { AttackEvent } from 'src/models/CustomEvents';
-import { Ref, ref, onMounted } from 'vue';
-import PlayerComponent from 'components/PlayerComponent.vue'
-import { ArcanePad, Arcane, AEventName, IframePadConnectEvent } from 'arcanepad-web-sdk';
+import { AEventName, Arcane, ArcanePad, IframePadConnectEvent, IframePadDisconnectEvent } from 'arcanepad-web-sdk';
+import Player from 'src/components/Player.vue';
+import { Ref, onMounted, ref } from 'vue';
 
 
 const pads: Ref<ArcanePad[]> = ref([])
-let padsInMenu = ref<string[]>([])
 
 onMounted(() => {
-
-  Arcane.msg.on(AEventName.OpenArcaneMenu, (e, from) => padsInMenu.value.push(from))
-  Arcane.msg.on(AEventName.CloseArcaneMenu, (e, from) => {
-    const indexOfPad = padsInMenu.value.indexOf(from)
-    if (indexOfPad != -1) padsInMenu.value.splice(indexOfPad, 1)
-  })
-
   init()
 })
 
@@ -42,18 +32,11 @@ async function init() {
     pads.value.push(padToAdd)
   })
 
-  // Arcane.msg.on(AEventName.IframePadDisconnect, (e: IframePadDisconnectEvent) => {
-  //   const padToRemove = pads.value.find(p => p.iframeId === e.iframeId)
-  //   if (!padToRemove) return
+  Arcane.msg.on(AEventName.IframePadDisconnect, (e: IframePadDisconnectEvent) => {
+    const padToRemove = pads.value.find(p => p.iframeId === e.iframeId)
+    if (!padToRemove) return
 
-  //   pads.value.splice(pads.value.indexOf(padToRemove), 1)
-  // })
+    pads.value.splice(pads.value.indexOf(padToRemove), 1)
+  })
 }
-
-function attack() {
-  console.log('sending attack')
-  Arcane.msg.emitToPads(new AttackEvent(2))
-  Arcane.pads.forEach(p => p.vibrate(300))
-}
-
 </script>

@@ -20,8 +20,11 @@ We are going to use Quasar.js, a framework on top of Vue.js. The reason for this
 npm install arcanepad-web-sdk
 ```
 
-## Step by step guide
+## Basic Tutorial
 <YoutubeEmbed video-id="0zk3x568NXM" />
+
+## Getting Sensors Data Tutorial 
+<YoutubeEmbed video-id="-q6kseH4uQ8" />
 
 ## Starter Template Repo
 
@@ -30,12 +33,11 @@ https://github.com/imvenx/sdk-test-arcanepad
 ::: code-group
 <<< @/guide/web/template-project/App.vue
 <<< @/guide/web/template-project/IndexPage.vue
-<<< @/guide/web/template-project/GamepadPage.vue
+<<< @/guide/web/template-project/MainLayout.vue
+<<< @/guide/web/template-project/models.ts
+<<< @/guide/web/template-project/PadPage.vue
+<<< @/guide/web/template-project/Player.vue
 <<< @/guide/web/template-project/routes.ts
-<<< @/guide/web/template-project/quasar.config.js
-<<< @/guide/web/template-project/PlayerComponent.vue
-<<< @/guide/web/template-project/StickPad.vue
-<<< @/guide/web/template-project/CustomEvents.ts
 :::
 
 <!-- ## Create a Quasar Project
