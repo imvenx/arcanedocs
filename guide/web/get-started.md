@@ -20,6 +20,9 @@ We are going to use Quasar.js, a framework on top of Vue.js. The reason for this
 npm install arcanepad-web-sdk
 ```
 
+## Step by step guide
+<YoutubeEmbed video-id="0zk3x568NXM" />
+
 ## Starter Template Repo
 
 https://github.com/imvenx/sdk-test-arcanepad
