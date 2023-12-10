@@ -2,7 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [['link', { rel: 'icon', href: '/arcanedocs/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/arcanedocs/favicon.ico' }],
+
+    ['meta', { property: 'og:title', content: 'ArcaneDocs' }],
+    ['meta', { property: 'og:description', content: 'Documentation and tutorials to create apps and games with Arcanepad' }],
+    ['meta', { property: 'og:image', content: '/arcanedocs/favicon.ico' }],
+    ['meta', { property: 'og:url', content: 'https://imvenx.github.io/arcanedocs/' }],
+    ['meta', { property: 'og:type', content: 'website' }]
+  ],
   title: "ArcaneDocs",
   outDir: './docs',
   base: '/arcanedocs/',
