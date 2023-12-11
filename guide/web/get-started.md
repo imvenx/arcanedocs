@@ -28,7 +28,7 @@ npm install arcanepad-web-sdk
 
 ## Starter Template Repo
 
-https://github.com/imvenx/sdk-test-arcanepad
+https://github.com/imvenx/arcanepad-web-template
 
 ::: code-group
 <<< @/guide/web/template-project/App.vue
@@ -38,7 +38,9 @@ https://github.com/imvenx/sdk-test-arcanepad
 <<< @/guide/web/template-project/PadPage.vue
 <<< @/guide/web/template-project/Player.vue
 <<< @/guide/web/template-project/routes.ts
+<<< @/guide/web/template-project/quasar.config.js
 :::
+
 
 <!-- ## Create a Quasar Project
 
