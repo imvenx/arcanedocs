@@ -25,3 +25,5 @@ https://github.com/endel/NativeWebSocket.git#upm
 Select "Add package by name" and write this on the name:
 
 com.unity.nuget.newtonsoft-json
+
+# Set compression format to disabled

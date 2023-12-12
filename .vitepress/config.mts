@@ -45,12 +45,14 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Getting Started - Unity', link: '/guide/unity/get-started', },
+          { text: 'Flying Car Game', link: '/guide/unity/flying-car', },
         ]
       }, {
         text: 'Godot 3',
         collapsed: true,
         items: [
           { text: 'Getting Started - Godot 3', link: '/guide/godot3/get-started', },
+          { text: 'Baseball Game', link: '/guide/godot3/baseball-game', },
         ]
       }
     ],
