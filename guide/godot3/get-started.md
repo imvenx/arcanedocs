@@ -1,4 +1,3 @@
-##
 # 🚧 👷 Work in Progress 👷 🚧
 ##
 # Getting Started with ArcanePad

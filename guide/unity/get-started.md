@@ -1,4 +1,3 @@
-##
 # 🚧 👷 Work in Progress 👷 🚧
 ##
 # Getting Started with ArcanePad
@@ -17,4 +16,12 @@ Open your Unity project, and import the downloaded package by going to `Assets` 
 
 This package includes all necessary scripts, prefabs, and settings to use ArcanePad in your Unity project.
 
----
+
+# Add Natvie Web Sockets unity Package:
+Select "Add package by git url" and add this to the url
+https://github.com/endel/NativeWebSocket.git#upm
+
+# Add Newtonsoft Unity Package
+Select "Add package by name" and write this on the name:
+
+com.unity.nuget.newtonsoft-json
