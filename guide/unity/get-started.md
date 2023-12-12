@@ -1,3 +1,6 @@
+##
+# 🚧 👷 Work in Progress 👷 🚧
+##
 # Getting Started with ArcanePad
 
 Welcome to ArcanePad! This guide will help you get started with integrating ArcanePad into your projects, whether you are developing for web, Godot, or Unity.
