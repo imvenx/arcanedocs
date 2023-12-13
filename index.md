@@ -12,11 +12,11 @@ hero:
 
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/get-started
-    - theme: alt
       text: What is Arcanepad?
       link: /guide/what-is-arcanepad
+    - theme: alt
+      text: Get Started
+      link: /guide/get-started
 
 features:
   - title: Focus on Creating
