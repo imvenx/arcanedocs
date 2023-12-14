@@ -45,6 +45,6 @@ By following these steps, you should be able to successfully pair your devices u
 
 ## Step 4: Choose Your Development Path
 
-- [Unity](/guide/unity/get-started)
+- [Unity](/guide/unity/get-started/get-started)
 - [Godot 3](/guide/godot3/get-started)
 - [Web](/guide/web/get-started)
