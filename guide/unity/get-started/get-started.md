@@ -22,6 +22,7 @@ com.unity.nuget.newtonsoft-json
 
 ### 4. Set compression format to disabled
 On `Edit -> Project Settings -> Player -> WebGL settings -> Publishing Settings` set `Comperssion format` to `disabled` 
+
 <img src="./comperssion-format.png" />
 
 
