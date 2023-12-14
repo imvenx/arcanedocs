@@ -44,7 +44,7 @@ export default defineConfig({
         text: 'Unity',
         collapsed: true,
         items: [
-          { text: 'Getting Started - Unity', link: '/guide/unity/get-started', },
+          { text: 'Getting Started - Unity', link: '/guide/unity/get-started/get-started', },
           { text: 'Flying Car Game', link: '/guide/unity/flying-car', },
         ]
       }, {

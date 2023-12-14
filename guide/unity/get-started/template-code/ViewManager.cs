@@ -1,0 +1,66 @@
+using UnityEngine;
+using System.Collections.Generic;
+using System.Linq;
+using ArcanepadSDK.Models;
+using ArcanepadSDK;
+using System;
+public class ViewManager : MonoBehaviour
+{
+    public GameObject playerPrefab;
+    public List<Player> players = new List<Player>();
+    public bool gameStarted { get; private set; }
+
+    async void Start()
+    {
+
+        Arcane.Init();
+
+        var initialState = await Arcane.ArcaneClientInitialized();
+
+        initialState.pads.ForEach(pad =>
+        {
+            createPlayer(pad);
+        });
+
+        Arcane.Msg.On(AEventName.IframePadConnect, (IframePadConnectEvent e) =>
+        {
+            var playerExists = players.Any(p => p.Pad.IframeId == e.iframeId);
+            if (playerExists) return;
+
+            var pad = new ArcanePad(deviceId: e.deviceId, internalId: e.internalId, iframeId: e.iframeId, isConnected: true, user: e.user);
+
+            createPlayer(pad);
+        });
+
+        Arcane.Msg.On(AEventName.IframePadDisconnect, (IframePadDisconnectEvent e) =>
+        {
+            var player = players.FirstOrDefault(p => p.Pad.IframeId == e.IframeId);
+
+            if (player == null) Debug.LogError("Player not found to remove on disconnect");
+            destroyPlayer(player);
+        });
+
+    }
+
+    void createPlayer(ArcanePad pad)
+    {
+        GameObject newPlayer = Instantiate(playerPrefab, Vector3.zero, Quaternion.identity);
+        Player playerComponent = newPlayer.GetComponent<Player>();
+        playerComponent.Initialize(pad);
+
+        players.Add(playerComponent);
+    }
+
+    void destroyPlayer(Player playerComponent)
+    {
+        playerComponent.Pad.Dispose();
+        players.Remove(playerComponent);
+        Destroy(playerComponent.gameObject);
+    }
+
+    void OnGUI()
+    {
+        GUILayout.Label("asdasd");
+
+    }
+}
