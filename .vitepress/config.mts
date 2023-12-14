@@ -54,6 +54,8 @@ export default defineConfig({
           { text: 'Getting Started - Godot 3', link: '/guide/godot3/get-started', },
           { text: 'Baseball Game', link: '/guide/godot3/baseball-game', },
         ]
+      }, {
+        text: 'To Do', link: '/guide/to-do'
       }
     ],
 
