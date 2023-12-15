@@ -28,7 +28,7 @@ On `Edit -> Project Settings -> Player -> WebGL settings -> Publishing Settings`
 
 ## Starter Template Repo
 
-https://github.com/imvenx/arcanepad-unity-sdk
+https://github.com/imvenx/unity-starter-template-arcanepad
 
 ::: code-group
 <<< ./template-code/ViewManager.cs
