@@ -13,18 +13,24 @@ Download the arcanepad-unity-sdk unity package from this link: https://github.co
 
 ### 2. Add Natvie Web Sockets
 Select "Add package by git url" and add this to the url
+```
 https://github.com/endel/NativeWebSocket.git#upm
+```
 
 ### 3. Add Newtonsoft
 Select "Add package by name" and write this on the name:
-
+```
 com.unity.nuget.newtonsoft-json
+```
 
 ### 4. Set compression format to disabled
 On `Edit -> Project Settings -> Player -> WebGL settings -> Publishing Settings` set `Comperssion format` to `disabled` 
 
 <img src="./comperssion-format.png" />
 
+<!-- ## Video Tutorial -->
+
+<!-- <YoutubeEmbed video-id="test" /> -->
 
 ## Starter Template Repo
 
