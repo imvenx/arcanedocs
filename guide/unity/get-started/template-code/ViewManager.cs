@@ -10,36 +10,31 @@ public class ViewManager : MonoBehaviour
     public List<Player> players = new List<Player>();
     public bool gameStarted { get; private set; }
 
-    async void Start()
+    async void Awake()
     {
-
+        // INITIALIZE CLIENT
         Arcane.Init();
 
+        // WAIT UNTIL CLIENT IS INITIALIZED
         var initialState = await Arcane.ArcaneClientInitialized();
 
-        initialState.pads.ForEach(pad =>
-        {
-            createPlayer(pad);
-        });
+        // CREATE A PLAYER FOR EACH GAMEPAD THAT WAS CONNECTED BEFORE INITIALIZATION
+        initialState.pads.ForEach(pad => createPlayer(pad));
 
-        Arcane.Msg.On(AEventName.IframePadConnect, (IframePadConnectEvent e) =>
-        {
-            var playerExists = players.Any(p => p.Pad.IframeId == e.iframeId);
-            if (playerExists) return;
+        // CREATE A PLAYER FOR EACH GAMEPAD THAT CONNECTS AFTER INITIALIZATION
+        Arcane.Msg.On(AEventName.IframePadConnect, new Action<IframePadConnectEvent>(createPlayerIfDontExist));
 
-            var pad = new ArcanePad(deviceId: e.deviceId, internalId: e.internalId, iframeId: e.iframeId, isConnected: true, user: e.user);
+        // DESTROY PLAYER ON GAMEPAD DISCONNECT
+        Arcane.Msg.On(AEventName.IframePadDisconnect, new Action<IframePadDisconnectEvent>(destroyPlayer));
+    }
 
-            createPlayer(pad);
-        });
+    void createPlayerIfDontExist(IframePadConnectEvent e)
+    {
+        var playerExists = players.Any(p => p.Pad.IframeId == e.iframeId);
+        if (playerExists) return;
 
-        Arcane.Msg.On(AEventName.IframePadDisconnect, (IframePadDisconnectEvent e) =>
-        {
-            var player = players.FirstOrDefault(p => p.Pad.IframeId == e.IframeId);
-
-            if (player == null) Debug.LogError("Player not found to remove on disconnect");
-            destroyPlayer(player);
-        });
-
+        var pad = new ArcanePad(deviceId: e.deviceId, internalId: e.internalId, iframeId: e.iframeId, isConnected: true, user: e.user);
+        createPlayer(pad);
     }
 
     void createPlayer(ArcanePad pad)
@@ -51,16 +46,15 @@ public class ViewManager : MonoBehaviour
         players.Add(playerComponent);
     }
 
-    void destroyPlayer(Player playerComponent)
+    void destroyPlayer(IframePadDisconnectEvent e)
     {
-        playerComponent.Pad.Dispose();
-        players.Remove(playerComponent);
-        Destroy(playerComponent.gameObject);
+        var player = players.FirstOrDefault(p => p.Pad.IframeId == e.IframeId);
+
+        if (player == null) Debug.LogError("Player not found to remove on disconnect");
+
+        player.Pad.Dispose();
+        players.Remove(player);
+        Destroy(player.gameObject);
     }
 
-    void OnGUI()
-    {
-        GUILayout.Label("asdasd");
-
-    }
 }
