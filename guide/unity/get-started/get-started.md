@@ -28,9 +28,11 @@ On `Edit -> Project Settings -> Player -> WebGL settings -> Publishing Settings`
 
 <img src="./comperssion-format.png" />
 
-<!-- ## Video Tutorial -->
+## Video Tutorials
 
-<!-- <YoutubeEmbed video-id="test" /> -->
+## Configuring our project from zero
+
+<YoutubeEmbed video-id="3Ehlu9WlKwU" />
 
 ## Starter Template Repo
 
