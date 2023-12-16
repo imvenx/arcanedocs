@@ -5,10 +5,10 @@ Welcome to Arcanepad! We're thrilled to embark on this journey with you. Arcanep
 <YoutubeEmbed video-id="O4rt_7O5SGs" />
 
 ## Step 1: Install the Arcanepad Desktop App
-Install Arcanepad desktop application on your PC. Download it [here](https://github.com/imvenx/arcanepad-releases/releases)
+Install Arcanepad desktop application on your PC. Download it on https://arcanepad.com or [here](https://github.com/imvenx/arcanepad-releases/releases)
 
 ## Step 2: Get the Arcanepad Mobile App
-Next, equip your android mobile device with the Arcanepad app [here](https://github.com/imvenx/arcanepad-releases-android/releases)
+Next, download and install the android app in your phone from https://arcanepad.com or from this link [here](https://github.com/imvenx/arcanepad-releases-android/releases)
 
 <!-- ## Step 3: Pair the two devices with the Arcane Code
 On the desktop app you will see the "Arcane Code". Open the mobile app, and insert this code.

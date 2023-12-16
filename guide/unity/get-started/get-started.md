@@ -8,20 +8,20 @@ Welcome to ArcanePad! This guide will help you get started with integrating Arca
 
 If you want to start an Arcanepad Project in Unity from scratch you need to follow this steps, otherwise you can download the starter repo and skip this part.
 
-### 1. Get the SDK
-Download the arcanepad-unity-sdk unity package from this link: https://github.com/imvenx/arcanepad-unity-sdk/releases and import it in your unity project
-
-### 2. Add Natvie Web Sockets
+### 1. Add Native Web Sockets package
 Select "Add package by git url" and add this to the url
 ```
 https://github.com/endel/NativeWebSocket.git#upm
 ```
 
-### 3. Add Newtonsoft
+### 2. Add Newtonsoft package
 Select "Add package by name" and write this on the name:
 ```
 com.unity.nuget.newtonsoft-json
 ```
+
+### 3. Get the SDK
+Download the arcanepad-unity-sdk unity package from this link: https://github.com/imvenx/arcanepad-unity-sdk/releases and import it in your unity project
 
 ### 4. Set compression format to disabled
 On `Edit -> Project Settings -> Player -> WebGL settings -> Publishing Settings` set `Comperssion format` to `disabled` 
