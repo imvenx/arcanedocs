@@ -43,4 +43,5 @@ https://github.com/imvenx/unity-starter-template-arcanepad
 <<< ./template-code/PadManager.cs
 <<< ./template-code/Player.cs
 <<< ./template-code/Models.cs
+<<< ./template-code/.gitignore
 :::
