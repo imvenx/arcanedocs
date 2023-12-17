@@ -4,9 +4,25 @@
 
 Welcome to ArcanePad! This guide will help you get started with integrating ArcanePad into your projects, whether you are developing for web, Godot, or Unity.
 
+## Starter Template
+
+<YoutubeEmbed video-id="27YDLVHISog" />
+
+https://github.com/imvenx/unity-starter-template-arcanepad
+
+::: code-group
+<<< ./template-code/ViewManager.cs
+<<< ./template-code/PadManager.cs
+<<< ./template-code/Player.cs
+<<< ./template-code/Models.cs
+<<< ./template-code/.gitignore
+:::
+
 ## Setup from Zero
 
 If you want to start an Arcanepad Project in Unity from scratch you need to follow this steps, otherwise you can download the starter repo and skip this part.
+
+<YoutubeEmbed video-id="3Ehlu9WlKwU" />
 
 ### 1. Add Native Web Sockets package
 Select "Add package by git url" and add this to the url
@@ -28,20 +44,17 @@ On `Edit -> Project Settings -> Player -> WebGL settings -> Publishing Settings`
 
 <img src="./comperssion-format.png" />
 
-## Video Tutorials
 
-## Configuring our project from zero
+## Creating View and Pad scenes
 
-<YoutubeEmbed video-id="3Ehlu9WlKwU" />
+<YoutubeEmbed video-id="-rUw5gDRr8A" />
 
-## Starter Template Repo
 
-https://github.com/imvenx/unity-starter-template-arcanepad
+## Handling Pad Connect/Disconnect
 
-::: code-group
-<<< ./template-code/ViewManager.cs
-<<< ./template-code/PadManager.cs
-<<< ./template-code/Player.cs
-<<< ./template-code/Models.cs
-<<< ./template-code/.gitignore
-:::
+<YoutubeEmbed video-id="VDSHRuETyhc" />
+
+
+## Emit Events Pad/View
+
+<YoutubeEmbed video-id="SdOOWm9KTlw" />
