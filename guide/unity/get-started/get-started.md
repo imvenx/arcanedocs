@@ -2,7 +2,7 @@
 ##
 # Getting Started with ArcanePad in Unity
 
-Welcome to ArcanePad! This guide will help you get started with integrating ArcanePad into your projects, whether you are developing for web, Godot, or Unity.
+Welcome to ArcanePad Unity Tutorial! This guide will help you get started with creating ArcanePad games in Unity.
 
 ## Starter Template
 
