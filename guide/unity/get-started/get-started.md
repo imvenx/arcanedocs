@@ -58,3 +58,10 @@ On `Edit -> Project Settings -> Player -> WebGL settings -> Publishing Settings`
 ## Emit Events Pad/View
 
 <YoutubeEmbed video-id="SdOOWm9KTlw" />
+
+## Export and share your game
+
+This is an alternative offline way to manually export and share our Arcanepad game. We working to add an
+easier way with UI menu to share and sell games online on the Arcanepad store, so anyone can discover it.
+
+<YoutubeEmbed video-id="srqW1jga7aA" />
