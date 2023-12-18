@@ -1,5 +1,3 @@
-# 🚧 👷 Work in Progress 👷 🚧
-##
 # Getting Started with ArcanePad in Unity
 
 Welcome to the Arcanepad Unity Tutorial! This guide will help you get started with creating Arcanepad games in Unity.
