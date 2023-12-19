@@ -37,6 +37,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Getting Started - Web', link: '/guide/web/get-started', },
+          { text: 'Space Ships Retro Game', link: '/guide/web/radius-raid', },
           // { text: 'Markdown Examples', link: '/guide/markdown-examples' },
           // { text: 'Runtime API Examples', link: '/guide/api-examples' }
         ]
