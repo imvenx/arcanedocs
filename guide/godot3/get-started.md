@@ -8,8 +8,9 @@
 https://github.com/imvenx/arcanepad-godot3-sdk
 
 ::: code-group
-<<< ./get-started-assets/PlayersManager.gd
-<<< ./get-started-assets/Pad.gd
-<<< ./get-started-assets/Player.gd
-<<< ./get-started-assets/Main.gd
+<<< ./get-started-assets/PlayersManager.gd {js}
+<<< ./get-started-assets/Pad.gd {js}
+<<< ./get-started-assets/Player.gd {js}
+<<< ./get-started-assets/Main.gd {js}
 :::
+
