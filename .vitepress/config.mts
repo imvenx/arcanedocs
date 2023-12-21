@@ -57,6 +57,7 @@ export default defineConfig({
         ]
       },
       { text: 'UX Recomendations', link: '/guide/recomendations/recomendations' },
+      { text: 'Cool Ideas & Random Stuff', link: '/guide/random-stuff/random-stuff' },
       { text: 'To Do', link: '/guide/to-do' },
     ],
 
