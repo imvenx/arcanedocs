@@ -1,6 +1,4 @@
-# 🚧 👷 Work in Progress 👷 🚧
-##
-# Flying Car Game with Arcanepad in Unity
+# Baseball game with Arcanepad in Godot
 
 ## Video 
 <YoutubeEmbed video-id="uHVkZ8G1Xks" />
