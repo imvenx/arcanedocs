@@ -1,16 +1,24 @@
 # 🚧 👷 Work in Progress 👷 🚧
 ##
 
+# Getting Started With Arcanepad on Godot
+
+Welcome to the Arcanepad Godot Tutorial! This guide will help you get started with creating Arcanepad games in Godot.
+
 <YoutubeEmbed video-id="-Qz9MFCGoYE" />
 
 ## Repo
 
 https://github.com/imvenx/arcanepad-godot3-sdk
 
-::: code-group
-<<< ./get-started-assets/Main.gd {php}
-<<< ./get-started-assets/PlayersManager.gd {php}
-<<< ./get-started-assets/Pad.gd {php}
-<<< ./get-started-assets/Player.gd {php}
+::: warning
+Since there is no GDScript code syntax highlight support, we have to use PHP syntax highlight. So the highlight will not be totally accurate. 
 :::
 
+::: code-group
+<<< ./get-started-assets/Main.gd {php}
+<<< ./get-started-assets/View.gd {php}
+<<< ./get-started-assets/Pad.gd {php}
+<<< ./get-started-assets/Player.gd {php}
+<<< ./get-started-assets/Events.gd {php}
+:::
