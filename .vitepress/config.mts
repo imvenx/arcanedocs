@@ -57,6 +57,8 @@ export default defineConfig({
         ]
       }, {
         text: 'To Do', link: '/guide/to-do'
+      }, {
+        text: 'UX Recomendations', link: '/guide/recomendations/recomendations'
       }
     ],
 
