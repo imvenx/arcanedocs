@@ -56,6 +56,8 @@ export default defineConfig({
           { text: 'Baseball Game', link: '/guide/godot3/baseball-game', },
         ]
       },
+      { text: 'Godot 4 (soon)' },
+      { text: 'Unreal Engine 5 (soon)', },
       { text: 'UX Recomendations', link: '/guide/recomendations/recomendations' },
       { text: 'Cool Ideas & Random Stuff', link: '/guide/random-stuff/random-stuff' },
       { text: 'To Do', link: '/guide/to-do' },
