@@ -8,6 +8,10 @@ Welcome to the Arcanepad Godot Tutorial! This guide will help you get started wi
 
 ## Starter Template Tutorial
 
+::: warning
+Breaking changes were made to the way we use events, in the video I use strings to call events like "GetQuaternion", but now is AEventName.GetQuaternion instead, this is explained on the next video after this on the "Breaking changes to event names" section, and also has been updated on the template repo code, so if you read the code and follow how is structured you shouldn't have any problems.
+:::
+
 <YoutubeEmbed video-id="bZ31lta1MgQ" />
 ## Repo
 
@@ -23,4 +27,11 @@ Since there is no GDScript code syntax highlight support, we have to use PHP syn
 <<< ./get-started-assets/Pad.gd {php}
 <<< ./get-started-assets/Player.gd {php}
 <<< ./get-started-assets/Events.gd {php}
+<<< ./get-started-assets/EventName.gd {php}
 :::
+
+
+## Breaking changes to event names
+
+<YoutubeEmbed video-id="PL6J-acMXNU" />
+
