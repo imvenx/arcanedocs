@@ -13,7 +13,7 @@ https://github.com/imvenx/unity-starter-template-arcanepad
 <<< ./template-code/PadManager.cs
 <<< ./template-code/Player.cs
 <<< ./template-code/Models.cs
-<<< ./template-code/.gitignore
+<<< ./template-code/.gitignore {txt}
 :::
 
 ## Setup from Zero
@@ -63,3 +63,10 @@ This is an alternative offline way to manually export and share our Arcanepad ga
 easier way with UI menu to share and sell games online on the Arcanepad store, so anyone can discover it.
 
 <YoutubeEmbed video-id="srqW1jga7aA" />
+
+## Don't use real time light on your gamepads!
+
+Low end devices will struggle even with a single mesh if you use real time light, try to optimize as much as possible. Also you could use "hard shadows" or "no shadows".
+
+
+![Alt text](baked-light.png)
