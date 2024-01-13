@@ -70,3 +70,7 @@ Low end devices will struggle even with a single mesh if you use real time light
 
 
 ![Alt text](baked-light.png)
+
+## Use coroutines instead of async on gamepads
+
+Async and Await don't work well on webgl exports.
