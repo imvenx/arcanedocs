@@ -62,6 +62,7 @@ export default defineConfig({
       // { text: 'Godot 4 (soon)' },
       // { text: 'Unreal Engine 5 (soon)', },
       { text: 'UX Recomendations', link: '/guide/recomendations/recomendations' },
+      { text: 'Monetization', link: '/guide/monetization/monetization' },
       { text: 'Cool Ideas & Random Stuff', link: '/guide/random-stuff/random-stuff' },
       { text: 'To Do', link: '/guide/to-do' },
     ],
