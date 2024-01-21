@@ -1,4 +1,4 @@
-# Getting Started With Arcanepad on Godot
+# Getting Started With Arcanepad on Godot 3
 
 Welcome to the Arcanepad Godot Tutorial! This guide will help you get started with creating Arcanepad games in Godot.
 

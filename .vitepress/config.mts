@@ -59,7 +59,13 @@ export default defineConfig({
           { text: 'Baseball Game', link: '/guide/godot3/baseball-game', },
         ]
       },
-      { text: 'Godot 4 (soon with 4.3)' },
+      {
+        text: 'Godot 4', collapsed: true,
+        items: [
+          { text: 'Getting Started', link: '/guide/godot4/get-started' },
+          { text: 'Platformer Game', link: '/guide/godot4/platformer-game' },
+        ]
+      },
       { text: 'Unreal Engine 5 (soon)', },
       { text: 'UX Recomendations', link: '/guide/recomendations/recomendations' },
       { text: 'Monetization', link: '/guide/monetization/monetization' },
