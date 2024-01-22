@@ -19,3 +19,15 @@ https://github.com/imvenx/arcanepad-godot-sdk
 <<< ./get-started-assets/CalibratePointerBottomRightButton.gd {php}
 <<< ./get-started-assets/CalibrateRotationButton.gd {php}
 :::
+
+## Downloading the starter template and exploring Main scene logic
+
+<YoutubeEmbed video-id="hIx36MqvnaA" />
+
+## Exploring the Gamepad and View scenes
+
+<YoutubeEmbed video-id="Eqvh2T7-mRg" />
+
+## Export game and add it to games library
+
+<YoutubeEmbed video-id="idrow9jl9sc" />
