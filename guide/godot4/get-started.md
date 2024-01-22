@@ -2,7 +2,7 @@
 Welcome to the Arcanepad Godot Tutorial! This guide will help you get started with creating Arcanepad games in Godot.
 
 ::: warning
-At the time of writing this, we are using Godot 4.3 dev build because it fixes many problems with webgl exports. You can  <a href="./get-started-assets/godot.windows.editor.x86_64.zip" target="_blank">download it by clicking here</a> you will have to use the no threads template that is included on the zip, for your debug webgl exports, and uncheck the use threads option. <u> It is all explained in the video. </u>
+At the time of writing this, we are using Godot 4.3 dev build because it fixes many problems with webgl exports. You can  <a href="/arcanedocs/downloads/godot.windows.editor.x86_64.zip" target="_blank">download it by clicking here</a> you will have to use the no threads template that is included on the zip, for your debug webgl exports, and uncheck the use threads option. <u> It is all explained in the video. </u>
 :::
 
 ## Repo
