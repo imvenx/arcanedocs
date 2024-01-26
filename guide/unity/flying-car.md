@@ -1,5 +1,3 @@
-# 🚧 👷 Work in Progress 👷 🚧
-##
 # Flying Car Game with Arcanepad in Unity
 
 This is an hybrid project. The view is made with Unity, and the gamepad is made with web technologies. 
