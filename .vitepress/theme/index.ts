@@ -4,6 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import YoutubeEmbed from '../components/YoutubeEmbed.vue'
+import RemoteCode from '../components/RemoteCode.vue'
 
 export default {
   extends: DefaultTheme,
@@ -14,5 +15,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('YoutubeEmbed', YoutubeEmbed)
+    app.component('RemoteCode', RemoteCode)
   }
 } satisfies Theme
