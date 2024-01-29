@@ -31,3 +31,7 @@ https://github.com/imvenx/arcanepad-godot-sdk
 ## Export game and add it to games library
 
 <YoutubeEmbed video-id="idrow9jl9sc" />
+
+## Setup from zero or update arcane library
+
+If you want to start your project from zero or update the arcane library, you can download the latest version here https://github.com/imvenx/arcanepad-godot-sdk/releases
