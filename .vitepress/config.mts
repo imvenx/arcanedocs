@@ -34,6 +34,14 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Unity',
+        collapsed: true,
+        items: [
+          { text: 'Getting Started - Unity', link: '/guide/unity/get-started/get-started', },
+          { text: 'Flying Car Game', link: '/guide/unity/flying-car', },
+        ]
+      },
+      {
         text: 'Web',
         collapsed: true,
         items: [
@@ -41,14 +49,6 @@ export default defineConfig({
           { text: 'Space Ships Retro Game', link: '/guide/web/radius-raid', },
           // { text: 'Markdown Examples', link: '/guide/markdown-examples' },
           // { text: 'Runtime API Examples', link: '/guide/api-examples' }
-        ]
-      },
-      {
-        text: 'Unity',
-        collapsed: true,
-        items: [
-          { text: 'Getting Started - Unity', link: '/guide/unity/get-started/get-started', },
-          { text: 'Flying Car Game', link: '/guide/unity/flying-car', },
         ]
       },
       {
