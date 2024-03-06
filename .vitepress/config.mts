@@ -69,6 +69,7 @@ export default defineConfig({
       { text: 'Unreal Engine 5 (soon)', },
       { text: 'UX Recomendations', link: '/guide/recomendations/recomendations' },
       { text: 'Monetization', link: '/guide/monetization/monetization' },
+      { text: 'ArcaneJam', link: '/guide/arcanejam' },
       { text: 'Cool Ideas & Random Stuff', link: '/guide/random-stuff/random-stuff' },
       { text: 'To Do', link: '/guide/to-do' },
     ],
