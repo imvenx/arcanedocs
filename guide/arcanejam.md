@@ -2,7 +2,7 @@
 
 Winners of the first [ArcaneJam](https://itch.io/jam/arcanejam): 
 
-# #1 Catgirl & Shotgun Project by Marisa0704 
+## #1 Catgirl & Shotgun Project by Marisa0704 
 
 https://marisa0704.itch.io/catgirl-shotgun-project
 
