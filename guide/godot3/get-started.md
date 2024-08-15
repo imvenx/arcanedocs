@@ -18,7 +18,7 @@ Breaking changes were made to the way we use events, in the video I use strings 
 https://github.com/imvenx/arcanepad-godot3-sdk
 
 ::: warning
-Since there is no GDScript code syntax highlight support, we have to use PHP syntax highlight. So the highlight will not be totally accurate. 
+Since there is no GDScript code syntax highlight support, we have to use PHP syntax highlight. So the highlight will not be totally accurate.
 :::
 
 ::: code-group
@@ -30,8 +30,10 @@ Since there is no GDScript code syntax highlight support, we have to use PHP syn
 <<< ./get-started-assets/EventName.gd {php}
 :::
 
-
 ## Breaking changes to event names
 
 <YoutubeEmbed video-id="PL6J-acMXNU" />
 
+## Upload your game to Arcanepad
+
+Go to https://dev.arcanepad.com, create an account and after you are verified you can upload your game. The app folder has to be compressed on .zip format.

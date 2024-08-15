@@ -21,9 +21,11 @@ npm install arcanepad-web-sdk
 ```
 
 ## Basic Tutorial
+
 <YoutubeEmbed video-id="0zk3x568NXM" />
 
-## Getting Sensors Data Tutorial 
+## Getting Sensors Data Tutorial
+
 <YoutubeEmbed video-id="-q6kseH4uQ8" />
 
 ## Starter Template Repo
@@ -41,109 +43,6 @@ https://github.com/imvenx/arcanepad-web-template
 <<< @/guide/web/template-project/quasar.config.js
 :::
 
+## Upload your game to Arcanepad
 
-<!-- ## Create a Quasar Project
-
-``` shell
-npm i -g @quasar/cli # Run this line if you haven't installed Quasar yet
-npm create quasar
-```
-
-By default I'm selecting this options: 
-
-``` shell
-
-√ What would you like to build? » App with Quasar CLI, let's go!
-√ Project folder: ... arcanepad-web-tutorial
-√ Pick Quasar version: » Quasar v2 (Vue 3 | latest and greatest)
-√ Pick script type: » Typescript
-√ Pick Quasar App CLI variant: » Quasar App CLI with Vite
-√ Package name: ... arcanepad-web-tutorial
-√ Project product name: (must start with letter if building mobile apps) ... Arcanepad Tutorial
-√ Project description: ... A tutorial for Arcanepad
-√ Author: ... v
-√ Pick a Vue component style: » Composition API with <script setup>
-√ Pick your CSS preprocessor: » None (the others will still be available)
-√ Check the features needed for your project: »
-
-```
-
-Then we navigate inside our project and open it in visual studio code:
-
-``` shell
-cd arcanepad-web-tutorial
-code .
-```
-
-## Configure Project
-
-1. In your project's `quasar.config.js`, set `https: true` to enable HTTPS.
-2. Optional: Set `config: { dark: true }` in the same configuration file to enable the dark theme.
-
-Your file now should look like this:
-
-::: code-group
-``` js {2,8} [quasar.config.js]
-devServer: {
-    https: true, 
-    open: true
-},
-
-framework: {
-    config: {
-        dark: true
-    },
-```
-:::
-
-Now we run:
-
-``` shell
-npm run dev 
-```
-
-we see a warning because the certificate is self signed, click on advanced and accept the risk and continue
-
-![Alt text](self-signed-warning.png)
-
-After clicking continue, we can see our Quasar App
-
-![Alt text](quasar-app-template.png)
-
-## Clean Up Project
-
-Remove all boilerplate code from the MainLayout.vue and IndexView.vue to start with a clean slate.
-
-::: code-group
-``` vue [src/pages/IndexPage.vue]
-<template>
-  <h1>Index Page</h1>
-</template>
-
-<script setup lang="ts">
-</script>
-```
-:::
-::: code-group
-``` vue [src/layouts/MainLayout.vue]
-<template>
-  <router-view />
-</template>
-
-<script setup lang="ts">
-</script>
-
-```
-:::
-### Installing the ArcanePad Web SDK
-
-To integrate ArcanePad into your web application, start by installing the ArcanePad Web SDK. 
-
-1. **Install via NPM:**
-   Open your terminal and run the following command in your project directory:
-
-    ```bash
-    npm install arcanepad-web-sdk
-    ```
-
-This command installs the ArcanePad Web SDK, allowing you to easily integrate ArcanePad functionality into your web applications. -->
+Go to https://dev.arcanepad.com, create an account and after you are verified you can upload your game. The app folder has to be compressed on .zip format.
