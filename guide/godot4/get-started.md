@@ -8,9 +8,9 @@ Welcome to the Arcanepad Godot Tutorial! This guide will help you get started wi
 
 ### IMPORTANT!
 
-We are using Godot 4.3 rc3. Don't try with older versions as they won't work. You can download it here https://godotengine.org/article/release-candidate-godot-4-3-rc-3/#downloads
+We are using Godot 4.3.rc3. Don't try with older versions as they won't work. You can download it here https://godotengine.org/article/release-candidate-godot-4-3-rc-3/#downloads
 
-On the video tutorial we were the older 4.3 dev4 version, but it had a sound bug that the new rc3 has fixed. Also in the video we explain how to install export templates from the provided zip, this is no longer necesary as rc3 can install the export templates automatically on the export window. You just need to point to the downloaded zip's. Reach us at arcanepad@gmail.com or discord if you need help.
+On the video tutorial using 4.3.dev4, but it had a sound bug that the new rc3 has fixed. Also in the video we explain how to install export templates from the provided zip, this is no longer necesary as rc3 can install the export templates automatically on the export window. You just need to point to the downloaded zip's. Reach us at arcanepad@gmail.com or discord if you need help.
 :::
 
 ## Repo
